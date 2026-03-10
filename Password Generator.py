@@ -4,7 +4,8 @@ import os
 def clear():
   os.system('cls')
 
-pf = 'C:\\Users\\harsh\\Desktop\\Home\\Coding\\Python\\VS\\Password Generator\\pw.txt' # password file for short
+# example file path below
+#pf = 'C:\\Users\\ENTER USER NAME\\Desktop\\Coding FILES\\pw.txt'
 
 # text formats
 bold = '\033[1m' # bold text
@@ -176,4 +177,5 @@ Numbers included: {numbers}
 fixedList = [s.strip() for s in passwords_list] # output the list without the brackets
 for item in fixedList:
   print(f"{bold}Password{cF} {num}: {item}")
+
   num += 1
