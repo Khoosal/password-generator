@@ -4,8 +4,7 @@ import os
 def clear():
   os.system('cls')
 
-# example file path below
-#pf = 'C:\\Users\\ENTER USER NAME\\Desktop\\Coding FILES\\pw.txt'
+pf = 'C:\\Users\\Harshil\\Desktop\\tony tony chopper\\coding\\vs\\password_generator\\pw.txt' # password file for short
 
 # text formats
 bold = '\033[1m' # bold text
@@ -163,9 +162,7 @@ else:
         line = file.readline()
         appendToList(line) # once all letters have been added to the file, the password is placed in the array; that is one password done
       clearFile() # clear the file, ready for the next password to be generated
-
-
-
+      
 clear()
 print(f"""{bold}Constraints{cF}:
 Length of password: {length}
@@ -177,5 +174,4 @@ Numbers included: {numbers}
 fixedList = [s.strip() for s in passwords_list] # output the list without the brackets
 for item in fixedList:
   print(f"{bold}Password{cF} {num}: {item}")
-
   num += 1
