@@ -21,4 +21,4 @@ This python file generates n amount of passwords based on a set of parameters*
 
 
 
-* By default, all passwords will utilise lower and uppercase letters
+*By default, all passwords will utilise lower and uppercase letters
