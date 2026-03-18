@@ -8,16 +8,22 @@ This python file generates n amount of passwords based on a set of parameters*
 2. Extract contents
 3. Create a text file in the same location as the extracted python file and name it
 4. Open password_gen.py
-   In Line 7, edit the file path so that it leads you directly to the text file
-   E.g. pf = 'C:\\Users\\Harshil\\Desktop\\python_coding\\password_generator\\[NAME YOU USED IN STEP 3].txt'
+   
+   - In Line 7, edit the file path so that it leads you directly to the text file
+   
+   - E.g. pf = 'C:\\\Users\\\Harshil\\\Desktop\\\python_coding\\\password_generator\\\\[NAME FROM STEP 3].txt'
 
    Ensure:
-   - Double backslashes are used
+   - Double backslashes are used -> C:// instead of C:/
    - The textfile name is correct, 'pw' in the .py file is an example and meant to be replaced
 
 6. Open terminal
-7. Change into the directory that holds your python file and text file
+7. Change into the directory that holds your files
+  
+     - E.g. cd C:\Users\Harshil\Desktop\python_coding\password_generator
 8. Run: "python password_gen.py"
+
+
 
 
 
